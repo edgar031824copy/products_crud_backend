@@ -44,7 +44,7 @@ describe('Products API tests', () => {
     expect(res.body.data.name).toBe('from testing');
   });
 
-  it('should get productsb   ', async () => {
+  it('should get product', async () => {
     const res = await request(server).get('/products');
 
     const hasRecord = res.body.data.some(

@@ -5,6 +5,7 @@ import { productsRouter } from './routes/products';
 import swaggerUi from 'swagger-ui-express';
 import db from './config/db';
 import swaggerSpec from './config/swagger';
+import morgan from 'morgan';
 
 const app = express();
 
@@ -23,6 +24,7 @@ app.use(express.json());
 
 connectDb();
 
+app.use(morgan('dev'));
 app.use('/products', productsRouter);
 
 //Docs
