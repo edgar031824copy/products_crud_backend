@@ -29,3 +29,6 @@ This project is an Express-based REST API for managing products, allowing for Cr
 ## Running the Application
 
 - npm run dev
+
+## Deployed version 
+- https://products-crud-backend-api.onrender.com/products
