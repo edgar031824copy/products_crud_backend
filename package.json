@@ -5,6 +5,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
+    "build": "tsc",
     "test": "jest --detectOpenHandles",
     "test:coverage": "jest --detectOpenHandles --coverage",
     "pretest": "ts-node ./src/utils.ts --clear",
