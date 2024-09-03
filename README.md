@@ -20,7 +20,7 @@ This project is an Express-based REST API for managing products, allowing for Cr
 
 - Clone the repository
 - npm install
-- Create a .env file in the root directory with the necessary database configurations.
+- Create a .env file in the root directory with the necessary database configurations(PORT and DATABASE_URL)
 
 ## Run the migrations to set up the database
 
